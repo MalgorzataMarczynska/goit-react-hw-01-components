@@ -39,7 +39,7 @@
   justify-content: center;
 }
 .stats li {
-  width: 7em;
+  width: 12em;
   list-style-type: none;
   display: flex;
   flex-direction: column;
