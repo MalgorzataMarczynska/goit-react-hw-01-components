@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: space-between;
-  width: 48vw;
+  width: 60vh;
   margin-top: 2rem;
   background-color: white;
   box-shadow: 1px 1px 1px 1px darkgray;
@@ -13,8 +13,8 @@ thead {
   background-color: lightseagreen;
 }
 th {
-  width: 16vh;
-  padding: 15px 15px;
+  width: 20vh;
+  padding: 15px 0px;
   color: white;
   text-transform: uppercase;
   font-size: 18px;
@@ -33,7 +33,7 @@ tr:nth-child(even) {
   background-color: rgb(233, 235, 236);
 }
 td {
-  width: 17vh;
+  width: 20vh;
   padding: 15px 0;
   color: darkgrey;
   font-size: 14px;
