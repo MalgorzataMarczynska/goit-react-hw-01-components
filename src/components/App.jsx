@@ -30,10 +30,13 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      User upload statistics
       <Statistics title="Upload stats" stats={data} />
+      User's friendlist with active/inactive status
       <FriendList friends={friends}>
         <FriendListItem friends={friends} />
       </FriendList>
+      Users's transaction history
       <TransactionHistory items={transactions} />
     </div>
   );
